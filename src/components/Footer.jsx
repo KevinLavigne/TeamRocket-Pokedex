@@ -43,7 +43,7 @@ function Footer() {
               width="40px"
             />
           </a>
-          <NavLink to="/*">
+          <NavLink to="/page404#header">
             <img
               className="twitter"
               src={twitter}
@@ -51,7 +51,7 @@ function Footer() {
               width="40px"
             />
           </NavLink>
-          <NavLink to="/*">
+          <NavLink to="/page404#header">
             <img
               className="facebook"
               src={facebook}

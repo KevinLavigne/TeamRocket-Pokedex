@@ -43,22 +43,22 @@ function Footer() {
               width="40px"
             />
           </a>
-          <a href="http://localhost:3000/*">
+          <NavLink to="/*#header">
             <img
               className="twitter"
               src={twitter}
               alt="Le logo twitter"
               width="40px"
             />
-          </a>
-          <a href="http://localhost:3000/*">
+          </NavLink>
+          <NavLink to="/*#header">
             <img
               className="facebook"
               src={facebook}
               alt="Le logo Facebook"
               width="40px"
             />
-          </a>
+          </NavLink>
         </div>
       </div>
       <div className="description">

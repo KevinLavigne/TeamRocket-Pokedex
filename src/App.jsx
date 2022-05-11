@@ -27,7 +27,7 @@ function App() {
         <Route path="/Contact" element={<Contact />} />
         <Route path="/Panier" element={<Panier />} />
         <Route path="/Carte" element={<Carte />} />
-        <Route path="/*" element={<Page404 />} />
+        <Route path="/page404" element={<Page404 />} />
       </Routes>
       <Footer />
     </BrowserRouter>
